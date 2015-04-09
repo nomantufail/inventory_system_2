@@ -16,7 +16,7 @@ class Sales extends ParentController {
 
     public function cash_sale()
     {
-        $headerData['title']='Sale';
+        $headerData['title']='Sal';
         $bodyData['products'] = $this->products_model->get();
         $bodyData['customers'] = $this->agents_model->customers();
 
